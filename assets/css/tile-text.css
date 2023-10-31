@@ -1,0 +1,42 @@
+.tile-item {
+  padding: 2px;
+}
+
+.tile-text {
+  font-size: 0.85em;
+  font-weight: 300;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 4px;
+  padding: 2px 0 0;
+  font-family: 'Segoe UI';
+  /*text-shadow: -1px 1px 2px rgba(0,0,0,0.5), 1px 1px 2px rgba(0,0,0,0.5), 1px -1px 0 rgba(0,0,0,0.5), -1px -1px 0 rgba(0,0,0,0.5);*/
+  text-shadow: -0.5px 0.5px 1px rgba(0,0,0,0.5), 0.5px 0.5px 1px rgba(0,0,0,0.5), 0.5px -0.5px 0 rgba(0,0,0,0.5), -0.5px -0.5px 0 rgba(0,0,0,0.5);
+}
+
+@media (max-width: 576px) {
+  .tile-text {
+    font-size: .8em;
+  }
+}
+
+@media (max-width: 365px) {
+  .tile-text {
+    font-size: .7em;
+  }
+}
+
+.text-bg {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 3%;
+  background-color: rgba(0,0,0,0.5);
+  border-radius: 5px;
+  margin: 0 16%;
+}
+
+.text-bg:hover {
+  background-color: rgba(0,0,0,0.7);
+}
+
